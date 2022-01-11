@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #11804a;
+    --cor02: #1BCC76;
+    --cor03: #808080c2;
+}
+
+body{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    background-image: url("../imagens/wallpaper002.jpg");
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+caption{
+    color: white;
+    background-color: #00000070;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 5px 4px 5px 0px #00000091;
+    text-shadow: 5px 5px 5px  #00000085;
+}
+
+table{
+    position: absolute;
+    border-collapse: collapse;
+    max-width: 80vmax;
+    width: 600px;
+    box-shadow: 5px 4px 5px 0px #00000091;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+th{
+    background-image: linear-gradient(to left, var(--cor01),var(--cor02)90%);
+    padding: 7px;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+    background-color: #808080c2;
+    
+}
+
+td,th{
+    border: 1px solid #000000;
+}
+
+.nomes{
+    text-align: left;
+}
+
+.nomes1{
+    background-image: none;
+    background-color: var(--cor03);
+}
+
+.nomes2{
+    text-align: left;
+    
+}
+
+.num{
+    background-color: var(--cor01);
+    font-weight: bold;
+}
+
+.foot{
+    color: white;
+    background-image: none;
+    background-color: #00000070;
+    text-shadow: 5px 5px 5px  #00000085;
+
+}
